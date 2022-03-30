@@ -1,0 +1,20 @@
+package sec2;
+
+public class WhileEx1 {
+
+	public static void main(String[] args) {
+		//카운트변수초기화; while(조건식) { 반복수행문; 증감식; }
+		int i = 0, sum = 0;
+		while(i<=100) {
+			if (i % 4 == 0) {
+				sum+=i;
+			}
+			i++;
+		}
+		System.out.println("1~100까지의 4의 배수의 합계 : "+sum);
+
+	
+	
+	
+	}
+}

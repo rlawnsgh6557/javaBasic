@@ -1,0 +1,20 @@
+package sec2;
+
+public class DoWhileEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		while(a>=20) {
+			a++;
+			System.out.println(a);
+		}
+		
+		int b=10;
+		do {
+			b++;
+			System.out.println(b);
+		} while(b>=20);
+	}
+
+}

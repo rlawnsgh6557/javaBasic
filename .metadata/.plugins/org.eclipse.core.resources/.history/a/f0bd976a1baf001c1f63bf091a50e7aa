@@ -1,0 +1,18 @@
+package sec3;
+
+public class Gugudan {
+
+	public static void main(String[] args) {
+		// 구구단 출력 (이중 for 문)
+		int gu = 0;
+		for(int i=2;i<=9;i++) {
+			for(int j=1;j<=9;j++) {
+				gu=(i*j);
+				System.out.println(j+"*"+i+"="+gu);
+			}
+			System.out.println("/t");	
+		}
+
+	}
+
+}

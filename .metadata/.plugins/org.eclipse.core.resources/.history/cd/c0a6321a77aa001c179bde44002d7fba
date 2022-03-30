@@ -1,0 +1,15 @@
+package sec2;
+
+public class WhileEx1 {
+
+	public static void main(String[] args) {
+		//카운트변수초기화; while(조건식) { 반복수행문; 증감식; }
+		int i = 0, sum = 0;
+		while(i<=10) {
+			i++;	//10 -> 11
+			sum+=i;
+		}
+		System.out.println("sum="+sum);
+	}
+
+}
