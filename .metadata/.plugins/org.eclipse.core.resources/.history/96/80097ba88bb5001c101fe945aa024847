@@ -1,0 +1,12 @@
+package sec2;
+
+public class Student extends Human{
+	public String no;
+	public String part;
+	Student(){}
+	Student(String name,String jumin, int age, String no, String part){ 
+		super(name,jumin,age);
+		this.no = no;
+		this.part = part;
+	}
+}

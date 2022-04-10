@@ -1,0 +1,10 @@
+package Confirm;
+
+public class DaoEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

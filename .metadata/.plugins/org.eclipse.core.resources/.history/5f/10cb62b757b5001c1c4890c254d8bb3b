@@ -1,0 +1,11 @@
+package sec2;
+
+public class SonicEx {
+
+	public static void main(String[] args) {
+		AirPlane plane = new SupersonicAirplane();
+		plane.takeOff();
+		plane.fly();
+	}
+
+}

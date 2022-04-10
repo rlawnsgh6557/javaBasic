@@ -1,0 +1,17 @@
+package sec2;
+
+public class DmbPhoneEx {
+
+	public static void main(String[] args) {
+		CellPhone dmb1;
+		
+		dmb1 = new CellPhone();
+		dmb1.model = "안드로이드";
+		System.out.println(dmb1.model);
+		
+		dmb1.color = "블랙";
+		System.out.println(dmb1.color);
+	
+	}
+
+}

@@ -9,7 +9,7 @@ public class Operator2 {
 		int d = a + c;  //이항연산
 		boolean e = !b;	//단항연산
 		String pass = a>=20 ? "합격" : "불합격";	//삼항 연산자
-
+		System.out.println(pass);
 	/*
 		(operator) = 연산 = 명령어(Instruction)
 		op-code	operand		

@@ -1,0 +1,13 @@
+package sec2;
+
+class Student {
+	public int sno;
+	public String sname;
+}
+public class ObjectsEx1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

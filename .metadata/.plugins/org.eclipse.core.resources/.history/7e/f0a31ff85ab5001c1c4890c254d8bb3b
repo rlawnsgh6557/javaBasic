@@ -1,0 +1,5 @@
+package pack2;
+import pack1.A;
+public class C {
+	A a = new A();
+}

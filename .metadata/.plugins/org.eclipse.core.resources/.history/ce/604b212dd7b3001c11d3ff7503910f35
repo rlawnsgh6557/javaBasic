@@ -1,0 +1,14 @@
+package Confirm;
+
+public class MemberService {
+	String id;
+	String password;
+	
+	public boolean loging(String id, String password) {
+		if(id=="hong"&&password=="12345") {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

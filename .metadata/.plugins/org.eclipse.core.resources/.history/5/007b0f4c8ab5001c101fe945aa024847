@@ -1,0 +1,6 @@
+package pack2;
+import pack1.A;
+//import pack1.B; B클래스는 접근제한자다 default 이므로 다른 패키지에서 접근이 불가함
+public class C {
+	A a = new A();
+}

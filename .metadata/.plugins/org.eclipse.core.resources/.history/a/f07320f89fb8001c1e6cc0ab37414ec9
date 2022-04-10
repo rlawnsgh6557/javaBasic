@@ -1,0 +1,8 @@
+package sec3;
+
+public class BalanceUnderflowException extends Exception{
+	public BalanceUnderflowException() {}
+	public BalanceUnderflowException(String message) {
+		super(message);
+	}
+}

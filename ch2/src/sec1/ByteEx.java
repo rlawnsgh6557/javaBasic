@@ -1,6 +1,7 @@
 package sec1;
 
 public class ByteEx {
+
 	public static void main(String[] args) {
 		//byte 타입의 변수 활용
 		byte b1 = -128;
@@ -17,6 +18,7 @@ public class ByteEx {
 		System.out.println("b7="+b7);
 		System.out.println("b8="+b8);
 		System.out.println("b9="+b9);
+
 		
 		//진법 변환
 		//2진수 101101 -> 10진수 45=4*10+5*1, 457 => 4*10의2승+5*10의1승+7*10의0승
@@ -95,4 +97,5 @@ public class ByteEx {
 		//21에 얼마를 더해야지 99가 나오는가? -> 보수(78)
 		//64+78=142+1(10의보수)=143=>43
 	}
+
 }

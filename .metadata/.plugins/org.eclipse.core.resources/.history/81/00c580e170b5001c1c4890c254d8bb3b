@@ -1,0 +1,10 @@
+package sec3;
+
+public class MichelinTire extends Tire {
+	MichelinTire(String location){
+		this(location, 50);
+	}
+	MichelinTire(String location, int maxRotation){
+		super(location, maxRotation);
+	}
+}
